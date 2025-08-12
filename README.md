@@ -4,4 +4,4 @@
 
 🙂 Stable:
 ```javascript
-javascript:fetch("https://raw.githubusercontent.com/leozinndelas/Khanverixs/refs/heads/main/Khanware.js").then(t=>t.text()).then(eval);
+javascript:fetch("https://raw.githubusercontent.com/leozinndelas/Khanverixs/refs/heads/main/Khanverix.js").then(t=>t.text()).then(eval);
