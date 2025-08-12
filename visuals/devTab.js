@@ -1,5 +1,5 @@
 plppdo.on('domChanged', () => {
-    if (document.getElementById('khanwareTab')) return;
+    if (document.getElementById('khanverixTab')) return;
 
     function createTab(name, href = '#') { 
         const li = document.createElement('li'); 
@@ -11,21 +11,21 @@ plppdo.on('domChanged', () => {
     if (!nav) return;
 
     const section = document.createElement('section');
-    section.id = 'khanwareTab';
+    section.id = 'khanverixTab';
     section.className = '_1ozlbq6';
-    section.innerHTML = '<h2 class="_18undph9">Khanware</h2>';
+    section.innerHTML = '<h2 class="_18undph9">Khanverix</h2>';
 
     const ul = document.createElement('ul');
     const devTab = createTab('Developer', '#');
     
     devTab.querySelector('a').addEventListener('click', (e) => {
         e.preventDefault();
-        window.khanwareWin = window.open("", "_blank");
-        if (window.khanwareWin) {
-            window.khanwareWin.document.write(`
+        window.khanverixWin = window.open("", "_blank");
+        if (window.khanverixWin) {
+            window.khanverixWin.document.write(`
                 <html>
                 <head>
-                    <title>Khanware Developer</title>
+                    <title>Khanverix Developer</title>
                     <style>
                         body { 
                             font-family: Arial, sans-serif; 
