@@ -1,3 +1,4 @@
+
 Object.assign(statsPanel.style, {
     position: 'fixed', top: '95%', left: '20px', width: '250px', height: '30px',
     backgroundColor: 'rgb(0,0,0,0.2)', color: 'white', fontSize: '13px', fontFamily: 'Arial, sans-serif',
@@ -13,7 +14,7 @@ let lastFrameTime = performance.now(), frameCount = 0, fps = 0;
 
 const getTime = () => new Date().toLocaleTimeString();
 const update = async () => statsPanel.innerHTML = `
-    <span style="text-shadow: -1px 0.5px 0 #p, -2px 0px 0 #2f672e;">KW</span>
+    <span style="text-shadow: -1px 0.5px 0 #p, -2px 0px 0 #2f672e;">KV</span>
     <span style="margin: 0 8px;">|</span><span>${fps}fps</span>
     <span style="margin: 0 8px;">|</span><span>${await getPing()}ms</span>
     <span style="margin: 0 8px;">|</span><span>${getTime()}</span>
