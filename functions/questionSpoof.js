@@ -1,7 +1,7 @@
 const phrases = [ 
     "🔥 Get good, get [Khanverix](https://github.com/leozinndelas/Khanverixs/)!",
     "🤍 Made by [@im.leo im.marcelo](https://github.com/leozinndelas/Khanverixs/).",
-    "☄️ By [leozin/khanverix (https://github.com/leozinndelas/Khanverixs/).",
+    "☄️ By [leozin/marcelo.",
     "🌟 Star the project on [GitHub](https://github.com/leozinndelas/Khanverixs/)!",
     "🦢 Leo fez a boa ;)",
 ];
